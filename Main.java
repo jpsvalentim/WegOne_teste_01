@@ -28,9 +28,9 @@ public class Main {
                 case 4:
                     OrientacaoDAO.deletarOrientacao(scanner);
                     break;
-                case 5:
-                    OrientacaoDAO.Vw_Orientacoes(scanner);//chama uma view nativa do banco de dados(especificações no documento)
-                    break;
+                //case 5:
+                   // OrientacaoDAO.Vw_Orientacoes(scanner);//chama uma view nativa do banco de dados(especificações no documento)
+                   // break;
                 case 0:
                     System.out.println("Saindo...");
                     break;
