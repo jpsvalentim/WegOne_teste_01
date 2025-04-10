@@ -14,7 +14,7 @@ WegOne_teste_01/
 └── README.md
 
 *ConsultaOrientacao.class # Teste de conexão com o banco de dados
-
+![alt text](image.png)
 ## 💾 Requisitos
 - Java JDK 8 ou superior
 
@@ -49,6 +49,7 @@ Abra o terminal na pasta do projeto:
 >> javac -cp ".;mysql-connector-j-9.2.0.jar" *.java
 
 ## 🚀 4. Execução via Terminal
+
 java -cp ".;mysql-connector-j-9.2.0.jar" Main
 
 
