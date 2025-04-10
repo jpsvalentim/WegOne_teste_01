@@ -44,7 +44,7 @@ Baixe o mysql-connector-j-9.2.0.jar e coloque dentro da pasta do seu projeto. ex
 ## ⚙️ 3. Compilação via Terminal
 Abra o terminal na pasta do projeto:
 
->> cd C:\Users\*seuusuario*\Documents\GitHub\WegOne_teste_01
+>> cd C:\Users\seuusuario\Documents\GitHub\WegOne_teste_01
 
 >> javac -cp ".;mysql-connector-j-9.2.0.jar" *.java
 
