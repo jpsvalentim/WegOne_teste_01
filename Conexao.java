@@ -5,14 +5,14 @@ import java.sql.SQLException;
 public class Conexao {
     private static final String URL = "jdbc:mysql://localhost:3306/wegone_db";
     private static final String USUARIO = "root";
-    private static final String SENHA = "root";
+    private static final String SENHA = "sua_senha_aqui";
 
-    public static Connection conectar() {
+    public static Connection getConexao() {
         try {
+            Class.forName("com.mysql.cj.jdbc.Driver"); // <- Adicione isso!
             return DriverManager.getConnection(URL, USUARIO, SENHA);
-        } catch (SQLException e) {
-            System.out.println("Erro ao conectar: " + e.getMessage());
-            return null;
+        } catch (SQLException | ClassNotFoundException e) {
+            throw new RuntimeException("Erro na conexão com o banco de dados", e);
         }
     }
 }
