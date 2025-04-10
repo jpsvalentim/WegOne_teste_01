@@ -13,8 +13,14 @@ WegOne_teste_01/
 ├── mysql-connector-j-9.2.0.jar   # Driver JDBC do MySQL
 └── README.md
 
-*ConsultaOrientacao.class # Teste de conexão com o banco de dados
+*ConsultaOrientacao.class 
+
+## Teste de conexão com o banco de dados
 ![alt text](image.png)
+>> javac -cp ".;mysql-connector-j-9.2.0.jar" TesteConexao.java Conexao.java
+>> java -cp ".;mysql-connector-j-9.2.0.jar" TesteConexao
+
+
 ## 💾 Requisitos
 - Java JDK 8 ou superior
 
@@ -46,11 +52,10 @@ Abra o terminal na pasta do projeto:
 
 >> cd C:\Users\seuusuario\Documents\GitHub\WegOne_teste_01
 
->> javac -cp ".;mysql-connector-j-9.2.0.jar" *.java
 
 ## 🚀 4. Execução via Terminal
-
-java -cp ".;mysql-connector-j-9.2.0.jar" Main
+>> javac -cp ".;mysql-connector-j-9.2.0.jar" Main.java OrientacaoDAO.java Conexao.java
+>> java -cp ".;mysql-connector-j-9.2.0.jar" Main
 
 
 ## 🧪 Funcionalidades Disponíveis
