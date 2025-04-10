@@ -8,8 +8,20 @@ public class TesteConexao {
             System.out.println("Conexão estabelecida com sucesso!");
         } else {
             System.out.println("Falha na conexão.");
-        }
-        
+        }   
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
