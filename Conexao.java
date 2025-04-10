@@ -9,7 +9,7 @@ public class Conexao {
 
     public static Connection getConexao() {
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver"); // <- Adicione isso!
+            Class.forName("com.mysql.cj.jdbc.Driver"); 
             return DriverManager.getConnection(URL, USUARIO, SENHA);
         } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException("Erro na conexão com o banco de dados", e);
