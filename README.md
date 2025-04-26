@@ -1,4 +1,4 @@
-## WegOne_teste_01
+## WegOne_teste_01 integração com banco de dado MySQL
 Projeto simplificado para JAVA
 
 ## 🛠️ WegOne Orientações — CRUD Java + MySQL
