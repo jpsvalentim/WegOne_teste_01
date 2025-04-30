@@ -29,6 +29,8 @@ WegOne_teste_01/
 - Driver JDBC do MySQL: [Baixar aqui](https://dev.mysql.com/downloads/connector/j/)--> extraia e copie o arquivo [mysql-connector-j-9.2.0] para o diretório do seu projeto(no exemplo: WegOne_teste_01)
 
 - Um terminal (CMD, PowerShell, Bash...)
+- ![image](https://github.com/user-attachments/assets/b0a38c9c-16d9-4560-8ceb-e869b5b2dfe3)
+
 
 ## 🧱 1. Criação do Banco de Dados
 Abra o MySQL e execute:
