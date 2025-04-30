@@ -1,3 +1,4 @@
+package scr;
 import java.util.Scanner;
 
 public class Main {

@@ -1,3 +1,4 @@
+package scr;
 import java.sql.Connection;
 
 public class TesteConexao {
