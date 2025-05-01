@@ -66,12 +66,16 @@ public class OrientacaoDAO {
            // System.out.print("Novo conteudo: ");
 
 
+
             String sql = "UPDATE orientacoes SET titulo = ?, tipo = ? WHERE id = ?";
             PreparedStatement stmt = conn.prepareStatement(sql);
             stmt.setString(1, titulo);
             stmt.setString(2, tipo);
             stmt.setInt(3, id);
             int linhasAfetadas = stmt.executeUpdate();
+
+            // logica para atualizar apenas um valor de conteudo e deixar os demais com seus conteudos antigos - atualmente a lógica atualiza apenas 3 colunas
+
 
             if (linhasAfetadas > 0)
                 System.out.println("Atualização realizada com sucesso!");
