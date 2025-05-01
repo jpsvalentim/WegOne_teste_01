@@ -2,6 +2,8 @@ package scr;
 import java.sql.*;
 import java.util.Scanner;
 
+import javax.xml.soap.Text;
+
 public class OrientacaoDAO {
 
     public static void listarOrientacoes() {
@@ -60,6 +62,9 @@ public class OrientacaoDAO {
             String titulo = scanner.nextLine();
             System.out.print("Novo tipo: ");
             String tipo = scanner.nextLine();
+           // Text conteudo_pt = scanner.nextLine();
+           // System.out.print("Novo conteudo: ");
+
 
             String sql = "UPDATE orientacoes SET titulo = ?, tipo = ? WHERE id = ?";
             PreparedStatement stmt = conn.prepareStatement(sql);
