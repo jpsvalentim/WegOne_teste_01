@@ -2,8 +2,6 @@ package scr;
 import java.sql.*;
 import java.util.Scanner;
 
-import javax.xml.soap.Text;
-
 public class OrientacaoDAO {
 
     public static void listarOrientacoes() {
